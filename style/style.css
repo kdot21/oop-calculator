@@ -1,0 +1,66 @@
+* {
+  /* Set the box-model for all elements*/
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 50px;
+  font-family: 'Helvetica';
+}
+
+.calculator-body {
+  /* Colors */
+  background-color: rgb(0,0,0);
+
+  /* Sizing */
+  width: 400px;
+  height: 500px;
+  margin: 100px auto;
+  border-radius: 1rem;
+
+  /* Display Properties */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button {
+  /* Sizing */
+  width: 23%;
+  height: 18%;
+  margin: 1%;
+  border-radius: 1rem;
+
+  /* Display Properties */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Misc */
+  cursor: pointer;
+}
+
+.operand, .clear, .equals {
+  background-color: rgb(207,208,212);
+}
+
+.operator {
+  color: rgb(255,255,254);
+  background-color: rgb(251,122,30);
+}
+
+.display {
+  /* Sizing */
+  width: 73%;
+  height: 18%;
+  margin: 1%;
+  padding-right: 1.5rem;
+
+  /* Colors */
+  color: rgb(255,255,254);
+  background-color: rgb(0,0,0);
+
+  /* Display Properties */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;;
+}
